@@ -1,0 +1,152 @@
+{
+  "Nodes": [
+    {
+      "Annotation": "all_tundra_nodes",
+      "Action": "",
+      "Inputs": [],
+      "Outputs": [],
+      "TargetDirectories": [],
+      "PassIndex": 0,
+      "ToBuildDependencies": [
+        1
+      ],
+      "ToUseDependencies": [],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 0
+    },
+    {
+      "Annotation": "Il2Cpp C:/Users/devis/Project Firestorm/Library/Il2cppBuildCache/Windows/x64/Native/GameAssembly.dll",
+      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2021.1.5f1\\Editor\\Data\\il2cpp/build/deploy/netcoreapp3.1/il2cpp.exe\" --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=\"unityaot\" --compile-cpp --libil2cpp-static --platform=\"WindowsDesktop\" --architecture=\"x64\" --configuration=\"Release\" --outputpath=\"C:\\Users\\devis\\Project Firestorm\\Library/Il2cppBuildCache/Windows/x64\\Native\\GameAssembly.dll\" --cachedirectory=\"C:\\Users\\devis\\Project Firestorm\\Assets\\..\\Library/il2cpp_cache\" --baselib-directory=\"C:/Program Files/Unity/Hub/Editor/2021.1.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport\\Variations\\win64_nondevelopment_il2cpp\" --avoid-dynamic-library-copy --additional-cpp=\"C:/Users/devis/Project Firestorm/Library/Il2cppBuildCache/Windows/x64/additionalCppFiles/IL2CPP.DL.Stubs.c\" --profiler-report --map-file-parser=\"C:/Program Files/Unity/Hub/Editor/2021.1.5f1/Editor/Data/Tools/MapFileParser/MapFileParser.exe\" --directory=\"C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed\" --generatedcppdir=\"C:/Users/devis/Project Firestorm/Library/Il2cppBuildCache/Windows/x64/il2cppOutput\"",
+      "Inputs": [
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/kcp2k.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/Mirror.Authenticators.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/Mirror.Components.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/Mirror.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/Mirror.Examples.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/Mono.Security.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/mscorlib.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/SimpleWebTransport.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/System.Configuration.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/System.Core.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/System.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/System.Xml.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/Telepathy.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/Unity.Barracuda.BurstBLAS.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/Unity.Barracuda.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/Unity.Burst.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/Unity.InputSystem.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/Unity.RenderPipelines.Core.Runtime.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/Unity.RenderPipelines.HighDefinition.Config.Runtime.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/Unity.RenderPipelines.HighDefinition.Runtime.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/Unity.TextMeshPro.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/Unity.VisualEffectGraph.Runtime.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/UnityEngine.AIModule.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/UnityEngine.AndroidJNIModule.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/UnityEngine.AnimationModule.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/UnityEngine.AssetBundleModule.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/UnityEngine.AudioModule.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/UnityEngine.CoreModule.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/UnityEngine.DirectorModule.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/UnityEngine.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/UnityEngine.GridModule.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/UnityEngine.ImageConversionModule.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/UnityEngine.IMGUIModule.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/UnityEngine.InputLegacyModule.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/UnityEngine.InputModule.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/UnityEngine.JSONSerializeModule.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/UnityEngine.ParticleSystemModule.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/UnityEngine.Physics2DModule.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/UnityEngine.PhysicsModule.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/UnityEngine.SharedInternalsModule.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/UnityEngine.SpriteShapeModule.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/UnityEngine.SubsystemsModule.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/UnityEngine.TerrainModule.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/UnityEngine.TextCoreModule.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/UnityEngine.TextRenderingModule.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/UnityEngine.TilemapModule.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/UnityEngine.UI.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/UnityEngine.UIElementsModule.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/UnityEngine.UIElementsNativeModule.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/UnityEngine.UIModule.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/UnityEngine.UnityWebRequestModule.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/UnityEngine.VFXModule.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/UnityEngine.VideoModule.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/UnityEngine.VRModule.dll",
+        "C:/Users/devis/Project Firestorm/Temp/StagingArea/Data/Managed/UnityEngine.XRModule.dll",
+        "C:/Users/devis/Project Firestorm/Library/Il2cppBuildCache/Windows/x64/additionalCppFiles/IL2CPP.DL.Stubs.c"
+      ],
+      "Outputs": [
+        "C:/Users/devis/Project Firestorm/Library/Il2cppBuildCache/Windows/x64/Native/GameAssembly.dll"
+      ],
+      "TargetDirectories": [
+        "C:/Users/devis/Project Firestorm/Library/Il2cppBuildCache/Windows/x64/il2cppOutput"
+      ],
+      "PassIndex": 0,
+      "ToBuildDependencies": [],
+      "ToUseDependencies": [],
+      "OverwriteOutputs": false,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 1
+    }
+  ],
+  "FileSignatures": [
+    {
+      "File": "../../../../Temp/StagingArea/Data/Managed"
+    },
+    {
+      "File": "artifacts/buildprogram/tundra_buildprogram.dag.json"
+    },
+    {
+      "File": "il2cpp_settings.json"
+    },
+    {
+      "File": "unitylinker_settings.json"
+    }
+  ],
+  "GlobSignatures": [
+    {
+      "Path": "../../../../Temp/StagingArea/Data/Managed"
+    }
+  ],
+  "ContentDigestExtensions": [
+    ".rsp",
+    ".dll",
+    ".exe",
+    ".txt",
+    ".c",
+    ".cpp",
+    ".h",
+    ".cs",
+    ".hpp"
+  ],
+  "StructuredLogFileName": "artifacts/tundra.log.json",
+  "StateFileName": "artifacts/TundraBuildState.state",
+  "StateFileNameTmp": "artifacts/TundraBuildState.state.tmp",
+  "ScanCacheFileName": "artifacts/tundra.scancache",
+  "ScanCacheFileNameTmp": "artifacts/tundra.scancache.tmp",
+  "DigestCacheFileName": "artifacts/tundra.digestcache",
+  "DigestCacheFileNameTmp": "artifacts/tundra.digestcache.tmp",
+  "DirectoriesCausingImplicitDependencies": [
+    "C:/Users/devis/Project Firestorm/Library/Il2cppBuildCache/Windows/x64/il2cppOutput"
+  ],
+        "NamedNodes": {
+          "all_tundra_nodes": 0
+        }
+,  "DefaultNodes": [
+    0
+  ],
+  "SharedResources": [],
+  "Scanners": [],
+  "Identifier": "artifacts/tundra.dag.json",
+  "BuildTitle": "Bee",
+  "RelativePathToRoot": ".."
+}
