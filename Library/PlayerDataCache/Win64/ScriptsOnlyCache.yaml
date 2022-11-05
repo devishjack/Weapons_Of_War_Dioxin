@@ -1,23 +1,13 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - CustomNetworkManager
+    - AudioManager
     - FPSAI
-    - LobbyController
-    - MouseLook
     - MouseLookSingle
-    - PlayerListItem
-    - PlayerMovement
     - PlayerMovementSingle
-    - PlayerObjectController
     - SceneChanger
-    - SteamLobby
-    Mirror.Components.dll:
-    - Mirror.NetworkTransform
-    Mirror.dll:
-    - Mirror.FizzySteam.FizzySteamworks
-    - Mirror.NetworkIdentity
-    - SteamManager
+    - SpawnPoint
+    - SurvivalController
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
@@ -97,81 +87,13 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.LayoutElement
     - UnityEngine.UI.Mask
-    - UnityEngine.UI.RawImage
     - UnityEngine.UI.ScrollRect
     - UnityEngine.UI.Scrollbar
     - UnityEngine.UI.Text
     - UnityEngine.UI.Toggle
     - UnityEngine.UI.VerticalLayoutGroup
   sceneClasses:
-    Assets/Scenes/Lobby.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 1732}
-    - Class: 114
-      Script: {instanceID: 1734}
-    - Class: 114
-      Script: {instanceID: 3054}
-    - Class: 114
-      Script: {instanceID: 5370}
-    - Class: 114
-      Script: {instanceID: 6006}
-    - Class: 114
-      Script: {instanceID: 6854}
-    - Class: 114
-      Script: {instanceID: 7822}
-    - Class: 114
-      Script: {instanceID: 8060}
-    - Class: 114
-      Script: {instanceID: 8650}
-    - Class: 114
-      Script: {instanceID: 9218}
-    - Class: 114
-      Script: {instanceID: 9286}
-    - Class: 114
-      Script: {instanceID: 10288}
-    - Class: 114
-      Script: {instanceID: 10766}
-    - Class: 114
-      Script: {instanceID: 11178}
-    - Class: 114
-      Script: {instanceID: 11186}
-    - Class: 114
-      Script: {instanceID: 12112}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    Assets/Scenes/MainMenu.unity:
+    Assets/Scenes/SpecOps.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -195,298 +117,99 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1730}
+      Script: {instanceID: 1756}
     - Class: 114
-      Script: {instanceID: 1732}
+      Script: {instanceID: 1758}
     - Class: 114
-      Script: {instanceID: 1734}
+      Script: {instanceID: 1760}
     - Class: 114
-      Script: {instanceID: 1736}
+      Script: {instanceID: 1762}
     - Class: 114
-      Script: {instanceID: 1744}
+      Script: {instanceID: 1770}
     - Class: 114
-      Script: {instanceID: 1824}
+      Script: {instanceID: 1918}
     - Class: 114
-      Script: {instanceID: 1888}
-    - Class: 114
-      Script: {instanceID: 2412}
-    - Class: 114
-      Script: {instanceID: 3054}
+      Script: {instanceID: 2482}
     - Class: 114
       Script: {instanceID: 3184}
     - Class: 114
-      Script: {instanceID: 3252}
+      Script: {instanceID: 3328}
     - Class: 114
-      Script: {instanceID: 3388}
+      Script: {instanceID: 3404}
     - Class: 114
-      Script: {instanceID: 3880}
+      Script: {instanceID: 3548}
     - Class: 114
-      Script: {instanceID: 3928}
+      Script: {instanceID: 4138}
     - Class: 114
-      Script: {instanceID: 4694}
+      Script: {instanceID: 4964}
     - Class: 114
-      Script: {instanceID: 4760}
+      Script: {instanceID: 5036}
     - Class: 114
-      Script: {instanceID: 4918}
+      Script: {instanceID: 5206}
     - Class: 114
-      Script: {instanceID: 4934}
+      Script: {instanceID: 5222}
     - Class: 114
-      Script: {instanceID: 5364}
+      Script: {instanceID: 5686}
     - Class: 114
-      Script: {instanceID: 5370}
+      Script: {instanceID: 5692}
     - Class: 114
-      Script: {instanceID: 5432}
+      Script: {instanceID: 5758}
     - Class: 114
-      Script: {instanceID: 5534}
+      Script: {instanceID: 5872}
     - Class: 114
-      Script: {instanceID: 5610}
+      Script: {instanceID: 5960}
     - Class: 114
-      Script: {instanceID: 5966}
+      Script: {instanceID: 6344}
     - Class: 114
-      Script: {instanceID: 6006}
+      Script: {instanceID: 6392}
     - Class: 114
-      Script: {instanceID: 6018}
+      Script: {instanceID: 6406}
     - Class: 114
-      Script: {instanceID: 6812}
+      Script: {instanceID: 7232}
     - Class: 114
-      Script: {instanceID: 7702}
+      Script: {instanceID: 8188}
     - Class: 114
-      Script: {instanceID: 7902}
+      Script: {instanceID: 8400}
     - Class: 114
-      Script: {instanceID: 8060}
+      Script: {instanceID: 8562}
     - Class: 114
-      Script: {instanceID: 8650}
+      Script: {instanceID: 9206}
     - Class: 114
-      Script: {instanceID: 8948}
+      Script: {instanceID: 9530}
     - Class: 114
-      Script: {instanceID: 9218}
+      Script: {instanceID: 9816}
     - Class: 114
-      Script: {instanceID: 9340}
+      Script: {instanceID: 9950}
     - Class: 114
-      Script: {instanceID: 9582}
+      Script: {instanceID: 10208}
     - Class: 114
-      Script: {instanceID: 9650}
+      Script: {instanceID: 10284}
     - Class: 114
-      Script: {instanceID: 10234}
+      Script: {instanceID: 10908}
     - Class: 114
-      Script: {instanceID: 10288}
+      Script: {instanceID: 10968}
     - Class: 114
-      Script: {instanceID: 10456}
-    - Class: 114
-      Script: {instanceID: 10674}
-    - Class: 114
-      Script: {instanceID: 10766}
-    - Class: 114
-      Script: {instanceID: 10982}
-    - Class: 114
-      Script: {instanceID: 11100}
-    - Class: 114
-      Script: {instanceID: 11178}
-    - Class: 114
-      Script: {instanceID: 11186}
-    - Class: 114
-      Script: {instanceID: 11260}
+      Script: {instanceID: 11150}
     - Class: 114
       Script: {instanceID: 11386}
     - Class: 114
-      Script: {instanceID: 12112}
+      Script: {instanceID: 11484}
     - Class: 114
-      Script: {instanceID: 12554}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    Assets/Scenes/MultiplayerMenu.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 23
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 33
-      Script: {instanceID: 0}
-    - Class: 43
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
+      Script: {instanceID: 11714}
     - Class: 114
-      Script: {instanceID: 1732}
+      Script: {instanceID: 11842}
     - Class: 114
-      Script: {instanceID: 1734}
+      Script: {instanceID: 11928}
     - Class: 114
-      Script: {instanceID: 1824}
+      Script: {instanceID: 11936}
     - Class: 114
-      Script: {instanceID: 3054}
+      Script: {instanceID: 12016}
     - Class: 114
-      Script: {instanceID: 5244}
+      Script: {instanceID: 12156}
     - Class: 114
-      Script: {instanceID: 5370}
+      Script: {instanceID: 12952}
     - Class: 114
-      Script: {instanceID: 6882}
-    - Class: 114
-      Script: {instanceID: 8060}
-    - Class: 114
-      Script: {instanceID: 8824}
-    - Class: 114
-      Script: {instanceID: 9636}
-    - Class: 114
-      Script: {instanceID: 10288}
-    - Class: 114
-      Script: {instanceID: 10476}
-    - Class: 114
-      Script: {instanceID: 10766}
-    - Class: 114
-      Script: {instanceID: 11178}
-    - Class: 114
-      Script: {instanceID: 11954}
-    - Class: 114
-      Script: {instanceID: 12224}
-    - Class: 114
-      Script: {instanceID: 12242}
-    - Class: 114
-      Script: {instanceID: 12468}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 136
-      Script: {instanceID: 0}
-    - Class: 143
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    Assets/Scenes/SingleplayerMenu.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 1732}
-    - Class: 114
-      Script: {instanceID: 1734}
-    - Class: 114
-      Script: {instanceID: 1736}
-    - Class: 114
-      Script: {instanceID: 3054}
-    - Class: 114
-      Script: {instanceID: 5370}
-    - Class: 114
-      Script: {instanceID: 6018}
-    - Class: 114
-      Script: {instanceID: 8060}
-    - Class: 114
-      Script: {instanceID: 10288}
-    - Class: 114
-      Script: {instanceID: 10766}
-    - Class: 114
-      Script: {instanceID: 11178}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    Assets/Scenes/SpecOps.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 1732}
-    - Class: 114
-      Script: {instanceID: 1734}
-    - Class: 114
-      Script: {instanceID: 1736}
-    - Class: 114
-      Script: {instanceID: 3054}
-    - Class: 114
-      Script: {instanceID: 5370}
-    - Class: 114
-      Script: {instanceID: 6018}
-    - Class: 114
-      Script: {instanceID: 8060}
-    - Class: 114
-      Script: {instanceID: 9218}
-    - Class: 114
-      Script: {instanceID: 10288}
-    - Class: 114
-      Script: {instanceID: 10766}
-    - Class: 114
-      Script: {instanceID: 11178}
-    - Class: 114
-      Script: {instanceID: 11186}
-    - Class: 114
-      Script: {instanceID: 12112}
+      Script: {instanceID: 13426}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -526,20 +249,44 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1824}
+      Script: {instanceID: 1760}
     - Class: 114
-      Script: {instanceID: 2810}
+      Script: {instanceID: 1762}
     - Class: 114
-      Script: {instanceID: 3880}
+      Script: {instanceID: 1852}
     - Class: 114
-      Script: {instanceID: 5808}
+      Script: {instanceID: 2924}
     - Class: 114
-      Script: {instanceID: 7874}
+      Script: {instanceID: 4088}
+    - Class: 114
+      Script: {instanceID: 5142}
+    - Class: 114
+      Script: {instanceID: 5692}
+    - Class: 114
+      Script: {instanceID: 6176}
+    - Class: 114
+      Script: {instanceID: 6406}
+    - Class: 114
+      Script: {instanceID: 8374}
+    - Class: 114
+      Script: {instanceID: 8562}
+    - Class: 114
+      Script: {instanceID: 10708}
+    - Class: 114
+      Script: {instanceID: 10968}
+    - Class: 114
+      Script: {instanceID: 11016}
+    - Class: 114
+      Script: {instanceID: 11484}
+    - Class: 114
+      Script: {instanceID: 11928}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
@@ -556,14 +303,24 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
     - Class: 218
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     - Class: 238
       Script: {instanceID: 0}
-    Assets/Scenes/TestMap.unity:
+    Assets/Scenes/YouDed.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
@@ -571,23 +328,45 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 3880}
+      Script: {instanceID: 1760}
+    - Class: 114
+      Script: {instanceID: 1762}
+    - Class: 114
+      Script: {instanceID: 1852}
+    - Class: 114
+      Script: {instanceID: 3184}
+    - Class: 114
+      Script: {instanceID: 5692}
+    - Class: 114
+      Script: {instanceID: 6406}
+    - Class: 114
+      Script: {instanceID: 8562}
+    - Class: 114
+      Script: {instanceID: 10968}
+    - Class: 114
+      Script: {instanceID: 11484}
+    - Class: 114
+      Script: {instanceID: 11928}
     - Class: 115
       Script: {instanceID: 0}
-    - Class: 154
-      Script: {instanceID: 0}
-    - Class: 156
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
-    - Class: 218
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -596,6 +375,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
   - hash:
       serializedVersion: 2
       Hash: ae83e830e7a90c0aff918c4c2e520825
@@ -610,12 +395,6 @@ ScriptsOnlyBuild:
     className: Image
   - hash:
       serializedVersion: 2
-      Hash: 699619b86d9359741a4f58540298c80b
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Text
-  - hash:
-      serializedVersion: 2
       Hash: f69dfc6409fbbd89d3689368e99688a8
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Rendering.UI
@@ -626,12 +405,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UIElements
     className: PanelRaycaster
-  - hash:
-      serializedVersion: 2
-      Hash: f84b810c764d5a270da7c7591f2be2f1
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.MultipleMatch
-    className: MatchGUI
   - hash:
       serializedVersion: 2
       Hash: 4c44531e67e897de5b682e8484c3aca5
@@ -700,12 +473,6 @@ ScriptsOnlyBuild:
     className: DepthOfField
   - hash:
       serializedVersion: 2
-      Hash: e631ad64af97042eeba1ee5a918c1b6a
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.MultipleAdditiveScenes
-    className: MultiSceneNetManager
-  - hash:
-      serializedVersion: 2
       Hash: 6225eb0973ab0af667bc5f9d1b1b18de
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
@@ -716,6 +483,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualEffectGraph.Runtime.dll
     namespaceName: UnityEngine.VFX.Utility
     className: VFXUIDropdownBinder
+  - hash:
+      serializedVersion: 2
+      Hash: a3ea236b81667ce963577b016d4aef95
+    assemblyName: Unity.ML-Agents.dll
+    namespaceName: Unity.MLAgents.Sensors
+    className: RayPerceptionSensorComponent2D
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -752,6 +525,12 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
     className: CinemachineVirtualCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 5313aabfeb9a420655b4f15dc4aff040
+    assemblyName: Unity.ML-Agents.dll
+    namespaceName: Unity.MLAgents.Sensors
+    className: RenderTextureSensorComponent
   - hash:
       serializedVersion: 2
       Hash: a74405a4829a834d107a0c6e072719ed
@@ -796,7 +575,7 @@ ScriptsOnlyBuild:
     className: NetworkLerpRigidbody
   - hash:
       serializedVersion: 2
-      Hash: 09d817bb0ff69c54008755fa0320c7ed
+      Hash: 984804685da268fad458a375cf831f8a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: FPSAI
@@ -952,12 +731,6 @@ ScriptsOnlyBuild:
     className: UnityOnSelectMessageListener
   - hash:
       serializedVersion: 2
-      Hash: e87f50864f8a979f1228e8c69bd62658
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Pong
-    className: Player
-  - hash:
-      serializedVersion: 2
       Hash: 1f0602e7bad1e0a9cba31ce292eee8bb
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Rendering.UI
@@ -968,6 +741,12 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
     className: CinemachineFramingTransposer
+  - hash:
+      serializedVersion: 2
+      Hash: 550cd92f36d03903a502911efc2e95c7
+    assemblyName: Unity.Barracuda.dll
+    namespaceName: Unity.Barracuda
+    className: NNModel
   - hash:
       serializedVersion: 2
       Hash: 27ec3360f0c0a6803ba71cc3106480b8
@@ -1000,6 +779,12 @@ ScriptsOnlyBuild:
     className: ScriptGraphAsset
   - hash:
       serializedVersion: 2
+      Hash: bc307d070edf4f5bf960c0d1696cce98
+    assemblyName: Unity.ML-Agents.dll
+    namespaceName: Unity.MLAgents.Sensors
+    className: CameraSensorComponent
+  - hash:
+      serializedVersion: 2
       Hash: a5781dc71a671b1ad2b38de19f24b71f
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -1012,22 +797,10 @@ ScriptsOnlyBuild:
     className: UnityOnPointerExitMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 192ca9716d03752ea1d90a78bc2daac9
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Additive
-    className: RandomColor
-  - hash:
-      serializedVersion: 2
       Hash: cd0ecdca0166232906c6f2df9dddc3d3
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.Editor
     className: InputActionDebuggerWindow
-  - hash:
-      serializedVersion: 2
-      Hash: b18f0d55b218ff8d17c2c7411b02c1bf
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Additive
-    className: PlayerController
   - hash:
       serializedVersion: 2
       Hash: 6f29b049d6b6b18bee23aaf2fe273e02
@@ -1100,12 +873,6 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
     className: GroupWeightManipulator
-  - hash:
-      serializedVersion: 2
-      Hash: 1c717f9024580154792437df7a691396
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.MultipleMatch
-    className: MatchController
   - hash:
       serializedVersion: 2
       Hash: 56df1fa7cea034df9863fe5a24200a32
@@ -1204,28 +971,22 @@ ScriptsOnlyBuild:
     className: CinemachineBlendListCamera
   - hash:
       serializedVersion: 2
-      Hash: 192ca9716d03752ea1d90a78bc2daac9
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.MultipleAdditiveScenes
-    className: RandomColor
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnBeginDragMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 5d470960c5db2f9c229c37ff99d0996e
+    assemblyName: Unity.ML-Agents.dll
+    namespaceName: Unity.MLAgents
+    className: Agent
+  - hash:
+      serializedVersion: 2
       Hash: 4d51d5ccf37d2089bdfe827617b784ff
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Rendering
     className: VolumeProfile
-  - hash:
-      serializedVersion: 2
-      Hash: e87f50864f8a979f1228e8c69bd62658
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Pong
-    className: Ball
   - hash:
       serializedVersion: 2
       Hash: 694d20920c0e41f567e119f7159a3644
@@ -1238,12 +999,6 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine.PostFX
     className: CinemachineVolumeSettings
-  - hash:
-      serializedVersion: 2
-      Hash: 69501abcda51721514ce989f617b052f
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Basic
-    className: PlayerUI
   - hash:
       serializedVersion: 2
       Hash: 053483974e66c52a914376876e6226a5
@@ -1298,6 +1053,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Rendering.UI
     className: DebugUIHandlerIndirectToggle
+  - hash:
+      serializedVersion: 2
+      Hash: eb02feb4286a5806bb13b9d45da43c95
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SpawnPoint
   - hash:
       serializedVersion: 2
       Hash: 93827904d1237a324c550ba2fe498ea8
@@ -1420,12 +1181,6 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
-      Hash: 6031d0355afa40553accfcd3d1b14687
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.NetworkRoom
-    className: NetworkRoomManagerExt
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Mirror.dll
     namespaceName: Mirror
@@ -1454,12 +1209,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.HighDefinition.Runtime.dll
     namespaceName: UnityEngine.Rendering.HighDefinition
     className: MotionBlur
-  - hash:
-      serializedVersion: 2
-      Hash: cd85cd0021d4c0ab017ad69b7f3332b5
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.MultipleMatch
-    className: CanvasController
   - hash:
       serializedVersion: 2
       Hash: b7d58df3c6d92c60e3611c0a808aa0dc
@@ -1582,12 +1331,6 @@ ScriptsOnlyBuild:
     className: CustomPassVolume
   - hash:
       serializedVersion: 2
-      Hash: b18f0d55b218ff8d17c2c7411b02c1bf
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.NetworkRoom
-    className: PlayerController
-  - hash:
-      serializedVersion: 2
       Hash: 8963690ef6f6b05ce03bfd8b5c26e20c
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
@@ -1610,12 +1353,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem
     className: InputSettings
-  - hash:
-      serializedVersion: 2
-      Hash: 55f8c6238de35a22ccf4e5ffe39aa1ac
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.RigidbodyPhysics
-    className: AddForce
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1654,12 +1391,6 @@ ScriptsOnlyBuild:
     className: VFXAudioSpectrumBinder
   - hash:
       serializedVersion: 2
-      Hash: 5fdc3c691001157e6a51b430df6e5f8c
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.MultipleAdditiveScenes
-    className: PlayerScore
-  - hash:
-      serializedVersion: 2
       Hash: d9258f94dfe2bbde6e720b45c43d59bd
     assemblyName: Unity.VisualEffectGraph.Runtime.dll
     namespaceName: UnityEngine.VFX.Utility
@@ -1696,12 +1427,6 @@ ScriptsOnlyBuild:
     className: CinemachineStoryboard
   - hash:
       serializedVersion: 2
-      Hash: ff4753395d726a7aadce9c48dcaf99d6
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.NetworkRoom
-    className: Reward
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -1714,22 +1439,10 @@ ScriptsOnlyBuild:
     className: MultiplayerEventSystem
   - hash:
       serializedVersion: 2
-      Hash: 8ea27909a92fe60806557460a2594f37
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.MultipleAdditiveScenes
-    className: PhysicsCollision
-  - hash:
-      serializedVersion: 2
       Hash: a8afcbd0a467dd957879959591dec288
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.XR
     className: TrackedPoseDriver
-  - hash:
-      serializedVersion: 2
-      Hash: fe585bfd4ef441082e696b927e0bb9a0
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Chat
-    className: ChatNetworkManager
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1750,12 +1463,6 @@ ScriptsOnlyBuild:
     className: Variables
   - hash:
       serializedVersion: 2
-      Hash: 31641d3fb597a24176aba6c9db9d92b0
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Basic
-    className: Player
-  - hash:
-      serializedVersion: 2
       Hash: df5ad3e9b815cc573110a7f4c095a317
     assemblyName: Unity.RenderPipelines.HighDefinition.Runtime.dll
     namespaceName: UnityEngine.Rendering.HighDefinition.Compositor
@@ -1774,7 +1481,7 @@ ScriptsOnlyBuild:
     className: LobbyController
   - hash:
       serializedVersion: 2
-      Hash: 3152f70949e0dcd89fb048763cd839a6
+      Hash: d07e279d00258028800b6c52518f5f1a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerMovement
@@ -1832,6 +1539,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 422f48e4fe97392f35c9dde63be9e292
+    assemblyName: Unity.Barracuda.dll
+    namespaceName: Unity.Barracuda
+    className: NNModelData
   - hash:
       serializedVersion: 2
       Hash: abf1930d8126d0b2e00e9449129a0190
@@ -1924,16 +1637,16 @@ ScriptsOnlyBuild:
     className: HDRPCameraBinder
   - hash:
       serializedVersion: 2
-      Hash: 192ca9716d03752ea1d90a78bc2daac9
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.NetworkRoom
-    className: RandomColor
-  - hash:
-      serializedVersion: 2
       Hash: 2d2a9dff919d3bd3238ac261e4e90833
     assemblyName: Unity.RenderPipelines.HighDefinition.Runtime.dll
     namespaceName: UnityEngine.Rendering.HighDefinition
     className: HDRISky
+  - hash:
+      serializedVersion: 2
+      Hash: be01a014ffb2484e6cdfdca7c5af1eed
+    assemblyName: Unity.ML-Agents.dll
+    namespaceName: Unity.MLAgents.Policies
+    className: BehaviorParameters
   - hash:
       serializedVersion: 2
       Hash: bd50beb95120324d8c4e8386692b6e82
@@ -1984,16 +1697,10 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
-      Hash: 187512b69bab9e17ff3fcdc8a6081952
+      Hash: 92fbb941d4a3382f28a6f0f661a3d5f3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MouseLookSingle
-  - hash:
-      serializedVersion: 2
-      Hash: c56a9426da8f5d94d45fd88dc881ef1b
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Benchmark
-    className: PlayerMovement
   - hash:
       serializedVersion: 2
       Hash: 51b05e403ce1da1805851f42af02f4bb
@@ -2104,16 +1811,28 @@ ScriptsOnlyBuild:
     className: Cinemachine3rdPersonFollow
   - hash:
       serializedVersion: 2
-      Hash: 41e4006047731b1c60cf71486c440a60
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Additive
-    className: AdditiveNetworkManager
+      Hash: daab9926a3a56f97180afd52b09f5307
+    assemblyName: Unity.ML-Agents.dll
+    namespaceName: Unity.MLAgents.Demonstrations
+    className: DemonstrationRecorder
   - hash:
       serializedVersion: 2
       Hash: cf95add559be53ae8bfdfcea86c5a18f
     assemblyName: Mirror.dll
     namespaceName: Mirror
     className: MultiplexTransport
+  - hash:
+      serializedVersion: 2
+      Hash: 36930db3116562932d730ec657bbfe20
+    assemblyName: Unity.ML-Agents.dll
+    namespaceName: Unity.MLAgents.Sensors
+    className: RayPerceptionSensorComponent3D
+  - hash:
+      serializedVersion: 2
+      Hash: 6b7677c4aaa7665a0964ff549bbb12a3
+    assemblyName: Unity.ML-Agents.dll
+    namespaceName: Unity.MLAgents
+    className: DecisionRequester
   - hash:
       serializedVersion: 2
       Hash: 0fd6822f6177297bd0eb4d83cc7a9030
@@ -2132,12 +1851,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.HighDefinition.Runtime.dll
     namespaceName: UnityEngine.Rendering.HighDefinition
     className: Fog
-  - hash:
-      serializedVersion: 2
-      Hash: fc67f14ea89c506f4f65b0b93f858139
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.MultipleMatch
-    className: PlayerGUI
   - hash:
       serializedVersion: 2
       Hash: e3c06865353300cb4e5bd51ce86ac429
@@ -2240,12 +1953,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Mask
-  - hash:
-      serializedVersion: 2
-      Hash: 70a7fe614ffc8d4a5ee1d04d107f3106
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Benchmark
-    className: MonsterMovement
   - hash:
       serializedVersion: 2
       Hash: bfeb96683d3796cadaab890bfdfe92be
@@ -2470,12 +2177,6 @@ ScriptsOnlyBuild:
     className: GlobalIllumination
   - hash:
       serializedVersion: 2
-      Hash: 5da7b9e4b43d0ba75d617a81259ec141
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Chat
-    className: ChatWindow
-  - hash:
-      serializedVersion: 2
       Hash: b5cdb5258d55ddfa2beedfa44db3e720
     assemblyName: Mirror.Authenticators.dll
     namespaceName: Mirror.Authenticators
@@ -2498,6 +2199,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnEndDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: afd242f4d08fe7134b665c272625419c
+    assemblyName: Unity.ML-Agents.dll
+    namespaceName: Unity.MLAgents.Demonstrations
+    className: DemonstrationSummary
+  - hash:
+      serializedVersion: 2
+      Hash: c671f10083063f0322fcd5052be13e21
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AudioManager
   - hash:
       serializedVersion: 2
       Hash: 53b8d4d85e2bc3c3c568098b4c5c40d4
@@ -2536,12 +2249,6 @@ ScriptsOnlyBuild:
     className: TMP_InputField
   - hash:
       serializedVersion: 2
-      Hash: e4fb2671f4e7782c0481d74d32ad6df2
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Tanks
-    className: Projectile
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -2552,12 +2259,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Slider
-  - hash:
-      serializedVersion: 2
-      Hash: 88e3b86c3ab08e02b94869c8fc5ce863
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.NetworkRoom
-    className: PlayerScore
   - hash:
       serializedVersion: 2
       Hash: 7dbf450932234158be58ca2027563dcb
@@ -2578,10 +2279,10 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
-      Hash: b18f0d55b218ff8d17c2c7411b02c1bf
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.MultipleAdditiveScenes
-    className: PlayerController
+      Hash: 3f7b09678f47c3b977b7e4b40fa95b76
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SurvivalController
   - hash:
       serializedVersion: 2
       Hash: 14cc8c54a6a89bf21dcc339b44017f33
@@ -2608,18 +2309,6 @@ ScriptsOnlyBuild:
     className: CustomNetworkManager
   - hash:
       serializedVersion: 2
-      Hash: 9b5a106d716e10dbf0635b1180cc5e67
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Chat
-    className: Player
-  - hash:
-      serializedVersion: 2
-      Hash: ad425eb6c32a6f6977115fef236ef55f
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Additive
-    className: ShootingTankBehaviour
-  - hash:
-      serializedVersion: 2
       Hash: 295831406da5907d41f58d84acd55d8d
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.Editor
@@ -2644,12 +2333,6 @@ ScriptsOnlyBuild:
     className: PlayerInputManagerEditor
   - hash:
       serializedVersion: 2
-      Hash: 3fe74dd3b211760c4ed03510eafabc55
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.MultipleMatch
-    className: RoomGUI
-  - hash:
-      serializedVersion: 2
       Hash: 6b3057497eb6f0e52612476af702bf8c
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Rendering.UI
@@ -2660,12 +2343,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.HighDefinition.Runtime.dll
     namespaceName: UnityEngine.Rendering.HighDefinition
     className: HDShadowSettings
-  - hash:
-      serializedVersion: 2
-      Hash: e35fcf041b759cbf8e4b5ffb1fb29bf2
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Benchmark
-    className: BenchmarkNetworkManager
   - hash:
       serializedVersion: 2
       Hash: 62824bb9557c7e987502f2fbd2a26819
@@ -2696,12 +2373,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: AspectRatioFitter
-  - hash:
-      serializedVersion: 2
-      Hash: 7693a95a23894f08d3f3e6f3544a47c0
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.MultipleMatch
-    className: MatchNetworkManager
   - hash:
       serializedVersion: 2
       Hash: 1f0602e7bad1e0a9cba31ce292eee8bb
@@ -2746,12 +2417,6 @@ ScriptsOnlyBuild:
     className: Tonemapping
   - hash:
       serializedVersion: 2
-      Hash: 0dc9a25160f04386a54ed38ca5a1cf17
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Pong
-    className: NetworkManagerPong
-  - hash:
-      serializedVersion: 2
       Hash: 748dd2a2a28da4e618912da5ac45684b
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -2762,12 +2427,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Scrollbar
-  - hash:
-      serializedVersion: 2
-      Hash: 26d5c4d3aa5e668e2a134fd27c936004
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.MultipleMatch
-    className: CellGUI
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -2840,12 +2499,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: c5bf757e45517373f48138682b6cc89f
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Additive
-    className: ZoneHandler
   - hash:
       serializedVersion: 2
       Hash: d227987243593b32ae57394d06018643
@@ -2924,12 +2577,6 @@ ScriptsOnlyBuild:
     assemblyName: Mirror.Components.dll
     namespaceName: Mirror
     className: DistanceInterestManagement
-  - hash:
-      serializedVersion: 2
-      Hash: 991d2e8f56cd6070136c2ea5db7ccd6d
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Tanks
-    className: Tank
   - hash:
       serializedVersion: 2
       Hash: 204ea02909ea3f738dafe3ff633d2a93
@@ -3016,12 +2663,6 @@ ScriptsOnlyBuild:
     className: NetworkRoomPlayer
   - hash:
       serializedVersion: 2
-      Hash: 661b710776e70c71dc6daa122cdb7843
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.Basic
-    className: BasicNetManager
-  - hash:
-      serializedVersion: 2
       Hash: 134520f170644886bce038a4038a42c9
     assemblyName: Unity.RenderPipelines.HighDefinition.Runtime.dll
     namespaceName: UnityEngine.Rendering.HighDefinition
@@ -3038,12 +2679,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseUpMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: ff4753395d726a7aadce9c48dcaf99d6
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.MultipleAdditiveScenes
-    className: Reward
   - hash:
       serializedVersion: 2
       Hash: 42a930c6b13af0df34d41f5b19ec8152
@@ -3076,12 +2711,6 @@ ScriptsOnlyBuild:
     className: ShadowsMidtonesHighlights
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.MultipleAdditiveScenes
-    className: PhysicsSimulator
-  - hash:
-      serializedVersion: 2
       Hash: a2113831d3323f931007e1b3812dc814
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
@@ -3100,12 +2729,6 @@ ScriptsOnlyBuild:
     className: SpatialHashingInterestManagement
   - hash:
       serializedVersion: 2
-      Hash: f3a8ccc18ad656ac8993b34a1b30984f
-    assemblyName: Mirror.Examples.dll
-    namespaceName: Mirror.Examples.NetworkRoom
-    className: NetworkRoomPlayerExt
-  - hash:
-      serializedVersion: 2
       Hash: 93d3fce2b1a3b2bf027add78898a10f1
     assemblyName: Unity.RenderPipelines.HighDefinition.Runtime.dll
     namespaceName: UnityEngine.Rendering.HighDefinition
@@ -3122,79 +2745,9 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualEffectGraph.Runtime.dll
     namespaceName: UnityEngine.VFX.Utility
     className: VFXInputAxisBinder
-  - hash:
-      serializedVersion: 2
-      Hash: 5d470960c5db2f9c229c37ff99d0996e
-    assemblyName: Unity.ML-Agents.dll
-    namespaceName: Unity.MLAgents
-    className: Agent
-  - hash:
-      serializedVersion: 2
-      Hash: 5313aabfeb9a420655b4f15dc4aff040
-    assemblyName: Unity.ML-Agents.dll
-    namespaceName: Unity.MLAgents.Sensors
-    className: RenderTextureSensorComponent
-  - hash:
-      serializedVersion: 2
-      Hash: 550cd92f36d03903a502911efc2e95c7
-    assemblyName: Unity.Barracuda.dll
-    namespaceName: Unity.Barracuda
-    className: NNModel
-  - hash:
-      serializedVersion: 2
-      Hash: be01a014ffb2484e6cdfdca7c5af1eed
-    assemblyName: Unity.ML-Agents.dll
-    namespaceName: Unity.MLAgents.Policies
-    className: BehaviorParameters
-  - hash:
-      serializedVersion: 2
-      Hash: daab9926a3a56f97180afd52b09f5307
-    assemblyName: Unity.ML-Agents.dll
-    namespaceName: Unity.MLAgents.Demonstrations
-    className: DemonstrationRecorder
-  - hash:
-      serializedVersion: 2
-      Hash: bc307d070edf4f5bf960c0d1696cce98
-    assemblyName: Unity.ML-Agents.dll
-    namespaceName: Unity.MLAgents.Sensors
-    className: CameraSensorComponent
-  - hash:
-      serializedVersion: 2
-      Hash: a3ea236b81667ce963577b016d4aef95
-    assemblyName: Unity.ML-Agents.dll
-    namespaceName: Unity.MLAgents.Sensors
-    className: RayPerceptionSensorComponent2D
-  - hash:
-      serializedVersion: 2
-      Hash: 36930db3116562932d730ec657bbfe20
-    assemblyName: Unity.ML-Agents.dll
-    namespaceName: Unity.MLAgents.Sensors
-    className: RayPerceptionSensorComponent3D
-  - hash:
-      serializedVersion: 2
-      Hash: 6b7677c4aaa7665a0964ff549bbb12a3
-    assemblyName: Unity.ML-Agents.dll
-    namespaceName: Unity.MLAgents
-    className: DecisionRequester
-  - hash:
-      serializedVersion: 2
-      Hash: 422f48e4fe97392f35c9dde63be9e292
-    assemblyName: Unity.Barracuda.dll
-    namespaceName: Unity.Barracuda
-    className: NNModelData
-  - hash:
-      serializedVersion: 2
-      Hash: afd242f4d08fe7134b665c272625419c
-    assemblyName: Unity.ML-Agents.dll
-    namespaceName: Unity.MLAgents.Demonstrations
-    className: DemonstrationSummary
   platform: 19
   scenePathNames:
-  - Assets/Scenes/MainMenu.unity
-  - Assets/Scenes/MultiplayerMenu.unity
-  - Assets/Scenes/Lobby.unity
-  - Assets/Scenes/TestMap.unity
-  - Assets/Scenes/SingleplayerMenu.unity
   - Assets/Scenes/SpecOps.unity
   - Assets/Scenes/SurvivalDemoMap.unity
-  playerPath: C:/Users/devis/Project Firestorm/versions/0.0.1a/Weapons of War Dioxin.exe
+  - Assets/Scenes/YouDed.unity
+  playerPath: C:/Users/devis/Desktop/CTB1970/versions/Weapons of War Dioxin.exe

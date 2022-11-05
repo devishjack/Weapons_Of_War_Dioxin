@@ -38,8 +38,6 @@ public class PlayerMovementSingle : MonoBehaviour
             Velocity.y = -10f;
         }
 
-        Debug.Log(isGrounded);
-
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
 
@@ -49,7 +47,6 @@ public class PlayerMovementSingle : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
-            Debug.Log("working");
             Velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
         }
 
